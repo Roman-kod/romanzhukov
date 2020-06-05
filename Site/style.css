@@ -1,0 +1,122 @@
+.blink2{
+			-webkit-animation: blink2 1s linear infinite;
+			animation: blink2 1s linear infinite;
+		}
+@-webkit-keyframes blink2 {
+			100% { color: rgba(34, 34, 34, 0); }
+		}
+@keyframes blink2 {
+			100% { color: rgba(34, 34, 34, 0);}
+		}
+h1{
+			color: black;
+			text-align: center;
+			text-shadow: 5px 5px 5px grey;
+			margin: 50px;
+			font-size: 35pt;
+		}
+h2{
+			color: #252850;
+			margin: 20px;
+		}
+div.head{
+			background: grey; /* Цвет фона */
+			border: 5px groove; /* Рамка вокруг заголовка */
+			color: #a0522d; /* Цвет текста */
+			padding: 0; /* Поля вокруг текста */
+			margin: 0;
+			text-align: center;
+			background-image: url("any foto/TES2.png");
+			background-repeat: no-repeat;
+			background-position: right;
+		}
+div.like { 
+			width: auto; 
+			background: grey; 
+			padding: 10px; 
+			border: solid 3px black; 
+			float: left; 
+			top: 20px; 
+			left: -70px; 
+			color: black;
+			text-shadow: 4px 2px 7px blue;
+		}
+.sub-menu { 
+   display: none; 
+} 
+.main-item:focus ~ .sub-menu, 
+.main-item:active ~ .sub-menu, 
+.sub-menu:hover { 
+   display: block; 
+}
+p.text{
+	color: blue;
+	font-size: 18pt;
+	margin: auto;
+	text-align: justify; 
+}
+p.foot{
+	color: white;
+}
+div.date{
+	text-align: center;
+	color: white;
+	background: black; 
+	border: dashed 4px red; 
+	float: left; 
+	width: 170px;
+}
+ul {
+	list-style-image: url("any foto/pic2.png");
+	height: 50%;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	cursor: pointer;
+	color: red;
+	background: skyblue;
+}	
+div.network{
+	background: grey;
+	color: black;
+	font-size: 15pt;
+	border: double 3px red;
+	margin-top: 50pt;
+	width: auto;
+	padding-top: 7px;
+	padding-left: 3px;
+	padding-bottom: 5px;
+}
+div.network:hover{
+	color:black;
+	background: orange;
+}
+ul.nets {
+    margin: auto; /* Обнуляем значение отступов */
+    padding: auto; /* Значение полей */
+   }
+ul.nets li {
+	text-align: left;
+	vertical-align: top;
+    display: inline-block; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 2px; /* Поля вокруг текста */
+   }
+p:hover {
+	text-shadow: 5px 5px 2px none;
+	color: black;
+	background: grey;
+   }
+p.foot{
+	color: black;
+	background: black;
+}
+   p.foot:hover{
+	color: black;
+	background: white;
+}
+a.lov:hover{
+	color: red;
+}
